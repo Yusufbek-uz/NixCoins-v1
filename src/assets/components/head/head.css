@@ -1,0 +1,64 @@
+.container{
+    background-color: #2C2F35;
+}
+
+.title{
+    font-size: 10px;
+    border-bottom: 1px solid #333;
+    h1{
+        font-family: "Poppins", sans-serif;
+        color: #e6e6e6;
+        font-size: 20px;
+        span{
+            font-size: large;
+            color: rgb(0, 201, 134);
+        }
+    }
+}
+
+header{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .tap{
+        width: 100px;
+        height: 70px;
+        padding: 0px 10px;
+        line-height: 0;
+        font-family: "Robot", sans-serif;
+        background-color: #32363C;
+        border-radius: 10px;
+        border: 1px solid rgba(128, 128, 128, 0.123);
+        h4{
+            font-size: 14px;
+            color: chocolate;
+        }
+        p{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .profit{
+        width: 100px;
+        height: 70px;
+        padding: 0px 10px;
+        line-height: 0;
+        font-family: "Robot", sans-serif;
+        background-color: #32363C;
+        border-radius: 10px;
+        border: 1px solid rgba(128, 128, 128, 0.123);
+        h4{
+            font-size: 12px;
+            color: rgb(155, 212, 21);
+        }
+        p{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

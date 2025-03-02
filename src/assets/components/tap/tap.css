@@ -1,0 +1,62 @@
+.balance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    img{
+        width: 30px;
+    }
+    h1{
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: 1s;
+    }
+}
+.tapl{
+    img{
+        border-radius: 50%;
+        transition: 0.5s;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+    @keyframes shake {
+        0% { transform: translate(0, 0); }
+        20% { transform: translate(-5px, 5px); }
+        40% { transform: translate(5px, -5px); }
+        60% { transform: translate(-5px, 5px); }
+        80% { transform: translate(5px, -5px); }
+        100% { transform: translate(0, 0); }
+      }
+      
+      @keyframes scale {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+        100% { transform: scale(1); }
+      }
+      
+      .shake {
+        animation: shake 0.3s ease;
+      }
+      
+      .scale {
+        animation: scale 0.2s ease;
+      }
+}
+.boost{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+    .tap-limit{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.8s;
+    }
+    h3 a{
+        color: white;
+        text-decoration: none;
+        font-family: cursive;
+    }
+}

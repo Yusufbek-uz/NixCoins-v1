@@ -1,0 +1,1 @@
+# NixCoins-v1

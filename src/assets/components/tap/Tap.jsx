@@ -14,7 +14,7 @@ import './tap.css'
 export function Tap() {
     const [count, setCount] = useState(0);
     const [number, setNumber] = useState(count);
-    const [power, setPower] = useState(10);
+    const [power, setPower] = useState(7500);
     const [tap, setTap] = useState(1);
     const [lvl, setLvl] = useState(1)
 
